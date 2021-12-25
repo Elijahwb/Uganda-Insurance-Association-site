@@ -1,10 +1,17 @@
-
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import Landing from './routes/Landing';
+import Register from './routes/Register';
 
 function App() {
   return (
-    <div className="text-blue-5">
-      Testing here
-    </div>
+    <Router>
+      <section>
+        <Switch>
+          <Route path='/' exact component={Landing} />
+          <Route path='/register' exact component={Register} />
+        </Switch>
+      </section>
+    </Router>
   );
 }
 
