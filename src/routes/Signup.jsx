@@ -10,7 +10,7 @@ const Signup = () => {
     // }
 
     return (
-        <section className='container'>
+        <section className='container px-4 md:px-[50px]'>
             <Content />
         </section>
     );

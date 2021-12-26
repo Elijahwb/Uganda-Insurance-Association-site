@@ -6,7 +6,7 @@ const Content = () => {
         event.preventDefault()
     }
     return (
-        <section className='grid grid-cols-2 my-10 backdrop-blur-md bg-white/30 text-white py-4 px-5 text-sm'>
+        <section className='grid md:grid-cols-2 my-3 md:my-10 backdrop-blur-md bg-white/30 text-white py-4 px-5 text-sm'>
             <div>
                 <div className='text-lg'>Create your account</div>
 
@@ -79,11 +79,11 @@ const Content = () => {
                         <span className='text-black underline decoration-lime-500 hover:bg-lime-500'><Link to='#'> Terms of service</Link></span>
                     </div>
 
-                    <button type='submit' className='my-2 outline-none rounded text-sm py-1 px-4 bg-gradient-to-b from-lime-500 to-lime-900 text-white hover:opacity-90' onClick={signup}>Signup</button>
+                    <button type='submit' className='w-full md:w-auto my-2 outline-none rounded text-sm py-1 px-4 bg-gradient-to-b from-lime-500 to-lime-900 text-white hover:opacity-90' onClick={signup}>Signup</button>
                 </form>
             </div>
 
-            <div className='px-6 text-xl flex items-center justify-center'>
+            <div className='hidden px-6 text-xl md:flex items-center justify-center'>
                 Some content here
             </div>
         </section>
