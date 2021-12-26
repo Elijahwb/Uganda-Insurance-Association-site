@@ -10,7 +10,7 @@ const Loginarea = () => {
         <section className='my-10 backdrop-blur-md bg-white/30 text-white py-4 px-5 text-sm'>
            <div className='text-lg'>Login to your account</div>
 
-           <div className="grid grid-cols-2">
+           <div className="grid md:grid-cols-2">
                 <div className='w-full pr-4'>
                     <form action="" className='my-5' autoComplete='off'>
                         <label class="block">
@@ -40,7 +40,7 @@ const Loginarea = () => {
                     </div>
                 </div>
 
-                <div className='flex flex-col px-4 border-l border-slate-300'>
+                <div className='my-8 flex flex-col px-4 md:border-l border-slate-300'>
                     <div className='w-full my-4 text-center text-md'>Want to get a Quick Quote or File a Claim on an existing policy?</div>
                     <div className='flex-1 flex items-center justify-center'>
                         <button className='mr-4 outline-none rounded text-sm py-1 px-4 bg-gradient-to-b from-lime-500 to-lime-900 text-white hover:opacity-90'>Get a Quick Quote</button>
