@@ -1,10 +1,11 @@
 import React from 'react';
+import Loginarea from '../components/landing/Loginarea';
 
 const Landing = () => {
     return (
-        <div>
-            
-        </div>
+        <section className=''>
+          <Loginarea />  
+        </section>
     );
 }
 

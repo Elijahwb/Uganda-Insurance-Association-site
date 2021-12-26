@@ -4,7 +4,7 @@ import logo from '../../assets/logo.png'
 
 const Topnav = () => {
     return (
-        <section className='h-20 flex justify-between bg-white'>
+        <section className='h-20 flex justify-between bg-white pb-1.5'>
             <Link to='/'>
                 <img src={logo} className='object-cover' style={{height: '90px'}} alt="uia-logo" />
             </Link>

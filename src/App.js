@@ -8,11 +8,13 @@ function App() {
       <Router>
         <Topnav />
 
-        <Switch>
-          <Route path='/' exact component={Landing} />
-          <Route path='/register' exact component={Register} />
-        </Switch>
-    </Router>
+        <section className='container'>
+          <Switch>
+            <Route path='/' exact component={Landing} />
+            <Route path='/register' exact component={Register} />
+          </Switch>
+        </section>
+      </Router>
   );
 }
 
