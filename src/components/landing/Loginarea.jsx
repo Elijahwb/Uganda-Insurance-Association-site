@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Loginarea = () => {
     return (
-        <section className='my-10 backdrop-blur-md bg-white/30 text-white py-2 px-5 text-sm'>
+        <section className='my-10 backdrop-blur-md bg-white/30 text-white py-4 px-5 text-sm'>
            <div className='text-lg'>Login to your account</div>
 
            <div className="grid grid-cols-2">
@@ -13,7 +13,7 @@ const Loginarea = () => {
                             <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium">
                                 Username or Email
                             </span>
-                            <input type="email" name="email" class="mt-1 px-3 py-2 bg-white border shadow-sm border-gray-300 placeholder-gray-400 focus:outline-none focus:border-lime-500 focus:ring-sky-400 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="Enter username or email" />
+                            <input type="text" name="email" class="mt-1 px-3 py-2 bg-white border shadow-sm border-gray-300 placeholder-gray-400 focus:outline-none focus:border-lime-500 focus:ring-sky-400 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="Enter username or email" />
                         </label>
                         <label class="block my-5">
                             <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium">
