@@ -5,7 +5,7 @@ import Loginarea from '../components/landing/Loginarea';
 
 const Landing = () => {
     return (
-        <section className='relative'>
+        <section className='relative md:px-[50px]'>
           <div className="container">
             <Loginarea />
             <Content />
