@@ -31,7 +31,7 @@ const Loginarea = () => {
 
                     <div>
                         Don't have an account?
-                        <span className='text-black underline decoration-lime-500 hover:bg-lime-500'><Link to='#'> Create a free account</Link></span>
+                        <span className='text-black underline decoration-lime-500 hover:bg-lime-500'><Link to='/signup'> Create a free account</Link></span>
                     </div>
 
                     <div>

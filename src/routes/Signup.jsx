@@ -1,7 +1,8 @@
 import React from 'react';
+import Content from '../components/signup/Content';
 // import { useHistory } from 'react-router-dom'
 
-const Register = () => {
+const Signup = () => {
     // const history = useHistory()
 
     // function back () {
@@ -9,10 +10,10 @@ const Register = () => {
     // }
 
     return (
-        <div>
-
-        </div>
+        <section className='container'>
+            <Content />
+        </section>
     );
 }
 
-export default Register;
+export default Signup;

@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Topnav from './components/global/Topnav';
 import Landing from './routes/Landing';
-import Register from './routes/Register';
+import Signup from './routes/Signup';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
 
         <Switch>
           <Route path='/' exact component={Landing} />
-          <Route path='/register' exact component={Register} />
+          <Route path='/signup' exact component={Signup} />
         </Switch>
       </Router>
   );
